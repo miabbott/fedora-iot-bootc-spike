@@ -44,6 +44,7 @@ The list of RPMs in the Fedora IoT bootable container was retrieved
 with the list of RPMs in the vanilla Fedora IoT`ostree` commit.
 
 The output of the diff'ed RPM content can be seen in [fedora-iot-bootc-diff.txt](fedora-iot-bootc-diff.txt).
+(The content of the Fedora IoT commit is on the left, the content of the Fedora IoT bootc image is on the right.)
 
 ## Notable differences
 
