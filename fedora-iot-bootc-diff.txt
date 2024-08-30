@@ -1,0 +1,590 @@
+ModemManager							ModemManager
+ModemManager-glib						ModemManager-glib
+NetworkManager							NetworkManager
+							      >	NetworkManager-cloud-setup
+NetworkManager-libnm						NetworkManager-libnm
+							      >	NetworkManager-tui
+NetworkManager-wifi						NetworkManager-wifi
+NetworkManager-wwan						NetworkManager-wwan
+							      >	WALinuxAgent-udev
+aardvark-dns							aardvark-dns
+							      >	abattis-cantarell-fonts
+							      >	acl
+							      >	adcli
+							      >	adobe-source-code-pro-fonts
+alternatives							alternatives
+							      >	amd-gpu-firmware
+							      >	amd-ucode-firmware
+atheros-firmware						atheros-firmware
+attr								attr
+audit-libs							audit-libs
+authselect							authselect
+authselect-libs							authselect-libs
+							      >	avahi
+							      >	avahi-libs
+basesystem							basesystem
+bash								bash
+bash-completion							bash-completion
+							      >	bind-libs
+							      >	bind-utils
+							      >	binutils
+							      >	binutils-gold
+							      >	bluez
+bootc								bootc
+							      >	bootupd
+brcmfmac-firmware						brcmfmac-firmware
+							      >	bsdtar
+							      >	btrfs-progs
+bubblewrap							bubblewrap
+							      >	bzip2
+bzip2-libs							bzip2-libs
+							      >	c-ares
+ca-certificates							ca-certificates
+catatonit							catatonit
+checkpolicy							checkpolicy
+chrony								chrony
+							      >	cirrus-audio-firmware
+clevis								clevis
+clevis-dracut							clevis-dracut
+clevis-luks							clevis-luks
+clevis-pin-tpm2							clevis-pin-tpm2
+clevis-systemd							clevis-systemd
+							      >	cloud-utils-growpart
+composefs							composefs
+composefs-libs							composefs-libs
+conmon								conmon
+							      >	console-login-helper-messages
+							      >	console-login-helper-messages-issuegen
+							      >	console-login-helper-messages-profile
+container-selinux						container-selinux
+containernetworking-plugins					containernetworking-plugins
+containers-common						containers-common
+containers-common-extra						containers-common-extra
+coreutils							coreutils
+coreutils-common						coreutils-common
+cpio								cpio
+cracklib							cracklib
+cracklib-dicts							cracklib-dicts
+criu								criu
+criu-libs							criu-libs
+crun								crun
+crypto-policies							crypto-policies
+							      >	crypto-policies-scripts
+cryptsetup							cryptsetup
+cryptsetup-libs							cryptsetup-libs
+curl								curl
+							      >	cyrus-sasl-gssapi
+cyrus-sasl-lib							cyrus-sasl-lib
+dbus								dbus
+dbus-broker							dbus-broker
+dbus-common							dbus-common
+dbus-libs							dbus-libs
+dbus-parsec							dbus-parsec
+device-mapper							device-mapper
+device-mapper-event						device-mapper-event
+device-mapper-event-libs					device-mapper-event-libs
+device-mapper-libs						device-mapper-libs
+device-mapper-persistent-data					device-mapper-persistent-data
+diffutils							diffutils
+							      >	dmidecode
+							      >	dnf
+							      >	dnf-data
+dnsmasq								dnsmasq
+dosfstools							dosfstools
+dracut								dracut
+dracut-config-generic						dracut-config-generic
+dracut-network							dracut-network
+							      >	dracut-squash
+duktape								duktape
+e2fsprogs							e2fsprogs
+e2fsprogs-libs							e2fsprogs-libs
+efi-filesystem							efi-filesystem
+efibootmgr							efibootmgr
+efivar-libs							efivar-libs
+							      >	elfutils-debuginfod-client
+							      >	elfutils-default-yama-scope
+elfutils-libelf							elfutils-libelf
+							      >	elfutils-libs
+							      >	ethtool
+							      >	exfatprogs
+expat								expat
+							      >	f2fs-tools
+fdo-client							fdo-client
+fedora-gpg-keys							fedora-gpg-keys
+fedora-iot-config						fedora-iot-config
+							      >	fedora-release
+fedora-release-common						fedora-release-common
+fedora-release-identity-iot				      |	fedora-release-identity-basic
+fedora-release-iot						fedora-release-iot
+fedora-repos							fedora-repos
+file								file
+file-libs							file-libs
+filesystem							filesystem
+findutils							findutils
+firewalld							firewalld
+firewalld-filesystem						firewalld-filesystem
+							      >	flashrom
+							      >	flatpak-session-helper
+							      >	fonts-filesystem
+							      >	fstrm
+fuse-common							fuse-common
+fuse-libs							fuse-libs
+fuse3								fuse3
+fuse3-libs							fuse3-libs
+fwupd								fwupd
+fwupd-efi							fwupd-efi
+							      >	fwupd-plugin-flashrom
+fwupd-plugin-modem-manager					fwupd-plugin-modem-manager
+fwupd-plugin-uefi-capsule-data					fwupd-plugin-uefi-capsule-data
+gawk								gawk
+							      >	gawk-all-langpacks
+gdbm								gdbm
+gdbm-libs							gdbm-libs
+gdisk								gdisk
+gettext-envsubst						gettext-envsubst
+gettext-libs							gettext-libs
+gettext-runtime							gettext-runtime
+							      >	glib-networking
+glib2								glib2
+glibc								glibc
+glibc-common							glibc-common
+							      >	glibc-gconv-extra
+glibc-minimal-langpack						glibc-minimal-langpack
+gmp								gmp
+gnupg2								gnupg2
+							      >	gnupg2-smime
+gnutls								gnutls
+gobject-introspection						gobject-introspection
+							      >	gpg-pubkey
+gpgme								gpgme
+greenboot							greenboot
+greenboot-default-health-checks					greenboot-default-health-checks
+grep								grep
+grub2-common							grub2-common
+grub2-efi-x64							grub2-efi-x64
+							      >	grub2-pc
+							      >	grub2-pc-modules
+grub2-tools							grub2-tools
+grub2-tools-minimal						grub2-tools-minimal
+							      >	gsettings-desktop-schemas
+							      >	gssproxy
+gzip								gzip
+hostname							hostname
+ignition							ignition
+ima-evm-utils							ima-evm-utils
+inih								inih
+							      >	intel-audio-firmware
+							      >	intel-gpu-firmware
+iproute								iproute
+							      >	iproute-tc
+							      >	ipset
+							      >	ipset-libs
+iptables-libs							iptables-libs
+iptables-nft							iptables-nft
+							      >	iptables-services
+							      >	iptables-utils
+iputils								iputils
+							      >	irqbalance
+iw								iw
+iwd								iwd
+iwlwifi-mvm-firmware						iwlwifi-mvm-firmware
+jansson								jansson
+							      >	jemalloc
+jose								jose
+jq								jq
+json-c								json-c
+json-glib							json-glib
+kbd								kbd
+kbd-legacy							kbd-legacy
+kbd-misc							kbd-misc
+							      >	kdump-utils
+kernel								kernel
+kernel-core							kernel-core
+kernel-modules							kernel-modules
+kernel-modules-core						kernel-modules-core
+kernel-tools							kernel-tools
+kernel-tools-libs						kernel-tools-libs
+							      >	kexec-tools
+keyutils							keyutils
+keyutils-libs							keyutils-libs
+kmod								kmod
+kmod-libs							kmod-libs
+							      >	kpartx
+krb5-libs							krb5-libs
+less								less
+libacl								libacl
+libaio								libaio
+libarchive							libarchive
+libassuan							libassuan
+							      >	libatasmart
+libattr								libattr
+libb2								libb2
+							      >	libbasicobjects
+libblkid							libblkid
+							      >	libblockdev
+							      >	libblockdev-crypto
+							      >	libblockdev-fs
+							      >	libblockdev-loop
+							      >	libblockdev-mdraid
+							      >	libblockdev-nvme
+							      >	libblockdev-part
+							      >	libblockdev-swap
+							      >	libblockdev-utils
+libbpf								libbpf
+libbrotli							libbrotli
+libbsd								libbsd
+							      >	libbytesize
+libcap								libcap
+libcap-ng							libcap-ng
+							      >	libcap-ng-python3
+libcbor								libcbor
+							      >	libcollection
+libcom_err							libcom_err
+							      >	libcomps
+libcurl								libcurl
+							      >	libdaemon
+							      >	libdhash
+							      >	libdnf
+libeconf							libeconf
+libedit								libedit
+libell								libell
+							      >	libev
+libevent							libevent
+libfdisk							libfdisk
+libffi								libffi
+libfido2							libfido2
+							      >	libfsverity
+							      >	libftdi
+libgcc								libgcc
+libgcrypt							libgcrypt
+libgomp								libgomp
+libgpg-error							libgpg-error
+libgudev							libgudev
+libgusb								libgusb
+							      >	libibverbs
+							      >	libicu
+libidn2								libidn2
+							      >	libini_config
+							      >	libipa_hbac
+							      >	libjaylink
+libjcat								libjcat
+libjose								libjose
+libkcapi							libkcapi
+libkcapi-hmaccalc						libkcapi-hmaccalc
+libksba								libksba
+							      >	libldb
+libluksmeta							libluksmeta
+							      >	libmaxminddb
+libmbim								libmbim
+libmbim-utils							libmbim-utils
+libmd								libmd
+libmnl								libmnl
+libmodulemd							libmodulemd
+libmount							libmount
+libndp								libndp
+libnet								libnet
+libnetfilter_conntrack						libnetfilter_conntrack
+libnfnetlink							libnfnetlink
+							      >	libnfsidmap
+libnftnl							libnftnl
+libnghttp2							libnghttp2
+libnl3								libnl3
+libnsl2								libnsl2
+							      >	libnvme
+							      >	libpath_utils
+							      >	libpcap
+libpkgconf							libpkgconf
+							      >	libproxy
+libpsl								libpsl
+libpwquality							libpwquality
+libqb								libqb
+libqmi								libqmi
+libqmi-utils							libqmi-utils
+libqrtr-glib							libqrtr-glib
+							      >	libref_array
+librepo								librepo
+							      >	libreport-filesystem
+libseccomp							libseccomp
+libsecret							libsecret
+libselinux							libselinux
+libselinux-utils						libselinux-utils
+libsemanage							libsemanage
+libsepol							libsepol
+libslirp							libslirp
+libsmartcols							libsmartcols
+							      >	libsmbclient
+libsolv								libsolv
+							      >	libsoup3
+libss								libss
+libssh								libssh
+libssh-config							libssh-config
+							      >	libsss_certmap
+libsss_idmap							libsss_idmap
+libsss_nss_idmap						libsss_nss_idmap
+libsss_sudo							libsss_sudo
+libstdc++							libstdc++
+							      >	libtalloc
+libtasn1							libtasn1
+							      >	libtdb
+							      >	libtevent
+libtextstyle							libtextstyle
+libtirpc							libtirpc
+libtool-ltdl							libtool-ltdl
+							      >	libudisks2
+libunistring							libunistring
+libusb1								libusb1
+libutempter							libutempter
+libuuid								libuuid
+							      >	libuv
+libverto							libverto
+							      >	libverto-libev
+							      >	libwbclient
+libxcrypt							libxcrypt
+							      >	libxkbcommon
+libxml2								libxml2
+libxmlb								libxmlb
+libyaml								libyaml
+libzstd								libzstd
+linux-firmware							linux-firmware
+linux-firmware-whence						linux-firmware-whence
+							      >	lmdb-libs
+							      >	logrotate
+							      >	lsof
+lua-libs							lua-libs
+luksmeta							luksmeta
+lvm2								lvm2
+lvm2-libs							lvm2-libs
+lz4-libs							lz4-libs
+							      >	lzo
+							      >	makedumpfile
+							      >	mdadm
+							      >	memstrack
+microcode_ctl							microcode_ctl
+							      >	mkpasswd
+mokutil								mokutil
+mpdecimal							mpdecimal
+mpfr								mpfr
+							      >	mt7xxx-firmware
+							      >	nano
+							      >	nano-default-editor
+							      >	ncurses
+ncurses-base							ncurses-base
+ncurses-libs							ncurses-libs
+							      >	net-tools
+netavark							netavark
+nettle								nettle
+							      >	newt
+							      >	nfs-utils
+nftables							nftables
+							      >	nilfs-utils
+npth								npth
+							      >	nspr
+							      >	nss
+nss-altfiles							nss-altfiles
+							      >	nss-softokn
+							      >	nss-softokn-freebl
+							      >	nss-sysinit
+							      >	nss-util
+							      >	ntfs-3g
+							      >	ntfs-3g-libs
+							      >	ntfs-3g-system-compression
+							      >	ntfsprogs
+							      >	numactl-libs
+							      >	nvidia-gpu-firmware
+							      >	nvme-cli
+							      >	nxpwireless-firmware
+oniguruma							oniguruma
+openldap							openldap
+openssh								openssh
+openssh-clients							openssh-clients
+openssh-server							openssh-server
+openssl								openssl
+openssl-libs							openssl-libs
+os-prober							os-prober
+ostree								ostree
+ostree-libs							ostree-libs
+p11-kit								p11-kit
+p11-kit-trust							p11-kit-trust
+pam								pam
+pam-libs							pam-libs
+parsec								parsec
+							      >	passim
+passim-libs							passim-libs
+passt								passt
+passt-selinux							passt-selinux
+pciutils-libs							pciutils-libs
+pcre2								pcre2
+pcre2-syntax							pcre2-syntax
+							      >	pcsc-lite
+							      >	pcsc-lite-ccid
+							      >	pcsc-lite-libs
+							      >	pigz
+pinentry							pinentry
+							      >	pkcs11-provider
+pkgconf								pkgconf
+pkgconf-m4							pkgconf-m4
+pkgconf-pkg-config						pkgconf-pkg-config
+podman								podman
+policycoreutils							policycoreutils
+policycoreutils-python-utils					policycoreutils-python-utils
+polkit								polkit
+polkit-libs							polkit-libs
+polkit-pkla-compat						polkit-pkla-compat
+popt								popt
+procps-ng							procps-ng
+protobuf							protobuf
+protobuf-c							protobuf-c
+psmisc								psmisc
+publicsuffix-list-dafsa						publicsuffix-list-dafsa
+python-pip-wheel						python-pip-wheel
+							      >	python-unversioned-command
+python3								python3
+python3-audit							python3-audit
+							      >	python3-boto3
+							      >	python3-botocore
+							      >	python3-charset-normalizer
+							      >	python3-dateutil
+python3-dbus							python3-dbus
+python3-distro							python3-distro
+							      >	python3-dnf
+							      >	python3-file-magic
+python3-firewall						python3-firewall
+python3-gobject-base						python3-gobject-base
+							      >	python3-hawkey
+							      >	python3-idna
+							      >	python3-jmespath
+							      >	python3-libcomps
+							      >	python3-libdnf
+python3-libs							python3-libs
+python3-libselinux						python3-libselinux
+python3-libsemanage						python3-libsemanage
+python3-nftables						python3-nftables
+							      >	python3-packaging
+							      >	python3-pexpect
+python3-policycoreutils						python3-policycoreutils
+							      >	python3-ptyprocess
+							      >	python3-pysocks
+							      >	python3-pyyaml
+							      >	python3-requests
+							      >	python3-rpm
+							      >	python3-s3transfer
+python3-setools							python3-setools
+python3-setuptools						python3-setuptools
+							      >	python3-six
+							      >	python3-unbound
+							      >	python3-urllib3
+							      >	python3-urllib3+socks
+							      >	qemu-user-static
+							      >	qemu-user-static-aarch64
+							      >	qemu-user-static-alpha
+							      >	qemu-user-static-arm
+							      >	qemu-user-static-cris
+							      >	qemu-user-static-hexagon
+							      >	qemu-user-static-hppa
+							      >	qemu-user-static-loongarch64
+							      >	qemu-user-static-m68k
+							      >	qemu-user-static-microblaze
+							      >	qemu-user-static-mips
+							      >	qemu-user-static-nios2
+							      >	qemu-user-static-or1k
+							      >	qemu-user-static-ppc
+							      >	qemu-user-static-riscv
+							      >	qemu-user-static-s390x
+							      >	qemu-user-static-sh4
+							      >	qemu-user-static-sparc
+							      >	qemu-user-static-x86
+							      >	qemu-user-static-xtensa
+							      >	qrencode-libs
+							      >	quota
+							      >	quota-nls
+readline							readline
+realtek-firmware						realtek-firmware
+rootfiles							rootfiles
+							      >	rpcbind
+rpm								rpm
+							      >	rpm-build-libs
+rpm-libs							rpm-libs
+rpm-ostree							rpm-ostree
+rpm-ostree-libs							rpm-ostree-libs
+							      >	rpm-plugin-audit
+rpm-plugin-selinux						rpm-plugin-selinux
+							      >	rpm-plugin-systemd-inhibit
+rpm-sequoia							rpm-sequoia
+							      >	rpm-sign-libs
+							      >	samba-client-libs
+							      >	samba-common
+							      >	samba-common-libs
+screen								screen
+sed								sed
+selinux-policy							selinux-policy
+selinux-policy-targeted						selinux-policy-targeted
+setools-console							setools-console
+setup								setup
+							      >	sg3_utils
+							      >	sg3_utils-libs
+shadow-utils							shadow-utils
+shadow-utils-subid						shadow-utils-subid
+shared-mime-info						shared-mime-info
+shim-x64							shim-x64
+skopeo								skopeo
+							      >	slang
+slirp4netns							slirp4netns
+							      >	snappy
+							      >	socat
+							      >	sos
+sqlite-libs							sqlite-libs
+							      >	squashfs-tools
+							      >	sssd-ad
+sssd-client							sssd-client
+							      >	sssd-common
+							      >	sssd-common-pac
+							      >	sssd-ipa
+							      >	sssd-krb5
+							      >	sssd-krb5-common
+							      >	sssd-ldap
+							      >	sssd-nfs-idmap
+							      >	stalld
+sudo								sudo
+							      >	sudo-python-plugin
+systemd								systemd
+systemd-libs							systemd-libs
+systemd-pam							systemd-pam
+systemd-resolved						systemd-resolved
+systemd-udev							systemd-udev
+tar								tar
+							      >	tiwilink-firmware
+tmux								tmux
+							      >	toolbox
+tpm2-pkcs11							tpm2-pkcs11
+tpm2-tools							tpm2-tools
+tpm2-tss							tpm2-tss
+tpm2-tss-fapi							tpm2-tss-fapi
+traceroute							traceroute
+tzdata								tzdata
+							      >	udftools
+							      >	udisks2
+							      >	unbound-anchor
+							      >	unbound-libs
+usbguard							usbguard
+usbguard-selinux						usbguard-selinux
+userspace-rcu							userspace-rcu
+util-linux							util-linux
+util-linux-core							util-linux-core
+vim-data							vim-data
+vim-minimal							vim-minimal
+							      >	volume_key-libs
+							      >	which
+							      >	whois-nls
+wireless-regdb							wireless-regdb
+wpa_supplicant							wpa_supplicant
+xfsprogs							xfsprogs
+							      >	xkeyboard-config
+xz								xz
+xz-libs								xz-libs
+yajl								yajl
+zchunk-libs							zchunk-libs
+zezere-ignition							zezere-ignition
+zlib-ng-compat							zlib-ng-compat
+zram-generator							zram-generator
+zram-generator-defaults						zram-generator-defaults
+							      >	zstd
